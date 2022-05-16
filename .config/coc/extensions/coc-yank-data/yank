@@ -1,0 +1,318 @@
+c7561db7a418dd39b2201dfe110ab4a4|file:///home/ngoc/.config/nvim/coc-settings.json|64|32|v|json
+	never
+a0199cf7be7b241ffef10af0aef3efab|file:///home/ngoc/.config/i3/config|188|3|v|i3config
+	Hotkeys
+77b7e24bb3642a4b9d3081d393785273|file:///home/ngoc/.config/i3/config|65|14|v|i3config
+	semicolon
+f3824487d5c9be191fd46cd7c69a0ae0|file:///home/ngoc/.config/i3/config|11|23|V|i3config
+	exec "xrandr --dpi 150"
+5c7380d54b309b5b883d4a161548927d|file:///home/ngoc/.config/i3/config|11|21|V|i3config
+	exec 'xrandr --dpi 200'
+0fb18c26411fd265966c34c1b6eff688|file:///home/ngoc/.config/i3/config|192|5|v|i3config
+	_always 
+f027f27d0d548351e4d362e9b90678a9|file:///home/ngoc/.config/i3/config|112|11|v|i3config
+	Research
+e0aa6f43d82dab19c954edb3a4550ee5|file:///home/ngoc/.config/i3/config|114|11|v|i3config
+	Icognito
+73f9977556584a369800e775b48f3dbe|file:///home/ngoc/.config/i3/config|114|11|v|i3config
+	Something
+4878d5856dac9561bab7831a4a5ecba1|file:///home/ngoc/.config/i3/config|199|36|v|i3config
+	Private Browsing
+87d02ade4fd497091b315b41c0fef386|file:///home/ngoc/.config/i3/config|200|36|V|i3config
+	assign [class="Gnome-terminal"] $ws2
+dcbd57a87b511f1fbc22043537407443|file:///home/ngoc/.config/i3/config|201|15|V|i3config
+	assign [class=""]
+88f658ab6d4256c398565c83fc8f3ba9|file:///home/ngoc/.config/i3/config|201|32|v|i3config
+	(?i)
+b46490a41c5b8a1a0b688c8785bb3efd|file:///home/ngoc/.config/i3/config|47|26|v|i3config
+	i3-sensible-terminal
+1116cff03e819fe45b01db2fdaa45239|file:///home/ngoc/.config/i3/config|47|21|v|i3config
+	exec i3-sensible-terminal
+	
+77ce251be6ccb20393f356336a50cf56|file:///home/ngoc/.config/i3/config|202|9|v|i3config
+	class="firefox" 
+7f35c2feed19352d2418bfa7128ff5a3|file:///home/ngoc/.config/i3/config|202|16|v|i3config
+	.*\(Private Browsing\)
+0c57bf2acfc46aed6e8731255d3f11c3|file:///home/ngoc/.config/i3/config|202|32|v|i3config
+	Mozilla Firefox (Private Browsing)
+0bd38873c12e650950c6dc56cf26b18f|file:///home/ngoc/.config/i3/config|202|32|v|i3config
+	Mozilla Firefox (
+82320af69dd8259e6b54c374bef5f89d|file:///home/ngoc/.config/i3/config|199|1|v|i3config
+	# Assign application to workspace
+	assign [class="firefox"] $ws1
+	assign [class="Gnome-terminal"] $ws2
+	assign [class="firefox" title="(?i)Private Browsing"] $ws3
+4de8aa8803f1d41cf317eb0eadc2eb3c|file:///home/ngoc/.config/i3/config|197|1|v|i3config
+	assign
+ebc0b4954a2baeff5fb16338424c8bd8|file:///home/ngoc/.config/i3/config|190|1|V|i3config
+	bindsym $mod+shift+x exec i3lock
+da431551918c4931469ccd5b3a747f91|file:///home/ngoc/.config/i3/config|189|1|V|i3config
+	# Lock the machine
+dd1cd7f37227a1ca20a4d50bcb97b508|file:///home/ngoc/.config/i3/config|189|1|V|i3config
+	exec_always feh --bg-scale /home/ngoc/Pictures/wallpaper.jpg
+105b296a83f9c105355403f3332af50f|file:///home/ngoc/.config/i3/config|219|14|v|i3config
+	Pause
+0cf31b2c283ce3431794586df7b0996d|file:///home/ngoc/.config/i3/config|206|1|v|i3config
+	    
+97ed6da5f7d38ef69337d418397a6ea3|file:///home/ngoc/.config/i3/config|205|1|V|i3config
+	    bindsym e
+ac1465ac2e1992464ede1e6cb5e51c6b|file:///home/ngoc/.config/i3/config|205|51|v|i3config
+	dult
+71e524d4548eeea3c4e0af49c9c7744c|file:///home/ngoc/.config/i3/config|209|1|V|i3config
+	    bindsym Return mode "default"
+988fd738de9c6d177440c5dcf69e73ce|file:///home/ngoc/.config/i3/config|210|13|v|i3config
+	Return
+0563553d6924ee92d83d1acc76e8ebee|file:///home/ngoc/.config/i3/config|184|24|v|i3config
+	i3status
+99529e9371add83071c87a1765111d7f|file:///home/ngoc/.config/i3/i3blocks.conf|37|1|V|conf
+	label=VOL
+b4a9933d679689ce195fcf8de4c2da5e|file:///home/ngoc/.config/i3/i3blocks.conf|82|1|v|conf
+	[bandwidth]
+	#instance=eth0
+	interval=5
+	
+584fca225a29dd49d6fc18de0e653aaa|file:///home/ngoc/.config/i3/i3blocks.conf|77|1|v|conf
+	[wifi]
+	#instance=wlp3s0
+	interval=10
+	separator=false
+	
+fa6b23d691b2fb06e268774c5fe1ca88|file:///home/ngoc/.config/i3/i3blocks.conf|66|1|v|conf
+	
+	# Network interface monitoring
+	#
+	# If the instance is not specified, use the interface used for default route.
+	# The address can be forced to IPv4 or IPv6 with -4 or -6 switches.
+	[iface]
+	#instance=wlan0
+	color=#00FF00
+	interval=10
+	separator=false
+	
+	
+1169edabe63e1091fdd67f9c6d3960a2|file:///home/ngoc/.config/i3/i3blocks.conf|42|11|v|conf
+	volume 
+73a13981d98b735ea587c0c0e854e565|file:///home/ngoc/.config/i3/i3blocks.conf|42|1|V|conf
+	command=5 pulse
+e2eff6c2dafd909df8508f891b385d88|file:///home/ngoc/.config/i3/i3blocks.conf|40|10|v|conf
+	once
+e7e41d626fa21468e4131ba82fb9ab67|file:///home/ngoc/.config/i3/config|38|111|v|i3config
+	 && pkill -SIGRTMIN+10 i3blocks
+46fc23bc4e4d57e5469a39658a6dd3e8|file:///home/ngoc/.config/i3/i3blocks.conf|53|7|v|conf
+	SWAP
+b84bf79922abd6957e4a56aadba7826d|file:///home/ngoc/.config/i3/i3blocks.conf|54|10|V|conf
+	instance=swap
+4c40b90f2264e96d2287b24b44889129|file:///home/ngoc/.config/i3/i3blocks.conf|54|10|V|conf
+	separator=false
+3dece8c3386e998f4c224a36e77a44fe|file:///home/ngoc/.config/i3/i3blocks.conf|54|14|V|conf
+	separator=true
+710533dd879dd1202e5c73b27705bf02|file:///home/ngoc/.config/i3/i3blocks.conf|63|7|v|conf
+	HOME
+380dbc8d9d2c8a17f6ebb0b2c62d3e85|file:///home/ngoc/.config/i3/i3blocks.conf|63|7|v|conf
+	Disk
+a0aa796b68eb3e5f31554e6d19d7494c|file:///home/ngoc/.config/i3/i3blocks.conf|63|7|v|conf
+	f0a0
+7fb963e29d5279260aa2f9e8db5b22dc|file:///home/ngoc/.Xresources|1|1|V|xdefaults
+	Xft.dpi: 163
+efaa1ddeaeffd302465434393a59418a|file:///home/ngoc/.tmux.conf|124|19|v|tmux
+	copy-pipe "xclip -sel clip -i"
+c73caf8b1eeb9ea70f8cd7f5a1e9ac4f|file:///home/ngoc/.tmux.conf|124|22|V|tmux
+	bind -t vi-copy y copy-pipe "xclip -sel clip -i"
+945d5e233cf7d6240f6b783b36a374ff|file:///home/ngoc/.tmux.conf|74|11|v|tmux
+	Left
+92b09c7c48c520c3c55e497875da437c|file:///home/ngoc/.tmux.conf|75|11|v|tmux
+	Right
+08a38277b0309070706f6652eeae9a53|file:///home/ngoc/.tmux.conf|77|11|v|tmux
+	Down
+a2e87e77b2202f3738e35e560ce6becc|file:///home/ngoc/.tmux.conf|75|1|V|tmux
+	unbind C-j
+2b43c99c45d48d5b8fe5da5eaadccba9|file:///home/ngoc/.tmux.conf|79|10|V|tmux
+	bind-key C-h select-pane -L
+00e9a2c53929837b14f7d0c465c686f1|file:///home/ngoc/.config/i3/config|192|1|V|i3config
+	exec_always xset s off
+5b9671ad37f5985e71aa786e55b1b1de|file:///home/ngoc/.config/i3/config|193|18|v|i3config
+	s off
+10d362bed174fab2639e1c0d21bb0a02|file:///home/ngoc/.config/i3/config|193|17|V|i3config
+	exec_always xset 
+cf3d16557e603d6aae6699e013d43c90|file:///home/ngoc/.zshrc|104|15|v|zsh
+	lbGF
+7c3e970d0c710fde19cbb33e1fb47370|file:///home/ngoc/.zshrc|104|20|v|zsh
+	 --git
+f953ca587025b46a0218dc2665ea15e7|file:///home/ngoc/Projects/portfolio/taskle/.husky/pre-commit|1|1|v|sh
+	#!/bin/sh
+	. "$(dirname "$0")/_/husky.sh"
+b993df41c690309a85ef7f63ec19915f|file:///home/ngoc/Projects/portfolio/taskle/.husky/commit-msg|1|1|v|
+	#!/bin/sh
+	. "\$(dirname "\$0")/_/husky.sh"
+	
+	
+5e543256c480ac577d30f76f9120eb74|file:///home/ngoc/Projects/portfolio/taskle/.husky/commit-msg|4|1|v|sh
+	undefined
+5d274d477907644acd07afdb65e052bc|file:///home/ngoc/Projects/portfolio/taskle/.husky/commit-msg|4|1|V|sh
+	yarn run 
+3ad43f1e1e866b904175a2fb0dbdac03|file:///home/ngoc/Projects/portfolio/taskle/.husky/commit-msg|4|1|V|sh
+	npx --
+2e553c5900265f98ef6e2f1e420bbad4|file:///home/ngoc/Projects/portfolio/taskle/.husky/commit-msg|4|1|v|sh
+	npx --no --
+c5d03a553e8ff4a3aea006006c6f81cf|file:///home/ngoc/Projects/portfolio/taskle/.commitlintrc.json|1|1|v|json
+	module.exports = 
+3bf13c4c2d739587e6529833525573ae|file:///home/ngoc/Projects/portfolio/taskle/.commitlintrc.json|1|15|v|json
+	@commitlint/config-angular
+46a30204ea297ebb7100f90db8ce9439|file:///home/ngoc/Projects/portfolio/taskle/package.json|31|1|V|json
+	    "release:minor": "standard-version --release-as minor",
+ab846c0e3717a3e7d14af45cab70b44a|file:///home/ngoc/Projects/portfolio/taskle/package.json|32|14|v|json
+	minor
+73e4289c626288f1983f114c8918cbf8|file:///home/ngoc/Projects/portfolio/taskle/package.json|32|1|V|json
+	    "release:patch": "standard-version --release-as minor",
+e5c5e6dae38b284e8cf0bd1fb0efac03|file:///home/ngoc/Projects/portfolio/taskle/package.json|33|14|v|json
+	patch
+79c375e3c02b693794783441b535555c|file:///home/ngoc/Projects/portfolio/taskle/.versionrc.json|12|42|v|json
+	mokkapps
+f3bbdcf25dd8555e5ae94fefa9319fe0|file:///home/ngoc/Projects/portfolio/taskle/.versionrc.json|12|56|v|json
+	/changelog-generator-demo
+c5552398db5a17ac809a12cccd1425de|file:///home/ngoc/.config/sway/config|190|1|v|i3config
+	exec_always
+8ecb1d6044552987e005d2ab8280fdf1|file:///home/ngoc/.config/sway/config|190|14|v|i3config
+	--bg-scale
+a552c74784b3a82177bca6c8adde0efb|file:///home/ngoc/.config/sway/config|190|49|v|i3config
+	fill
+0cb47aeb6e5f9323f0969e628c4e59f5|file:///home/ngoc/.config/sway/config|190|49|v|i3config
+	scale
+d8735f7489c94f42f508d7eb1c249584|file:///home/ngoc/.config/sway/config.in|17|11|v|i3config
+	foot
+10aafcae57453e8949399b9ce771b39f|file:///home/ngoc/.config/sway/config.in|26|13|v|i3config
+	@datadir@/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png
+39f40cffade40974b74357ba2e712872|file:///home/ngoc/.config/sway/config.in|17|11|v|i3config
+	gnome-terminal
+f688b66102ed06eaedc6df886c3cb70f|file:///home/ngoc/.config/sway/config|32|53|v|i3config
+	swaymsg -t get_outputs
+d6392bceb532d7c6c75e835f75ed12d9|file:///home/ngoc/.config/sway/config|32|53|v|i3config
+	swaymsg -t get_outputs
+	
+4a0c84e6ab0590978fa1d70c33b033ac|file:///home/ngoc/.config/sway/config|116|1|V|i3config
+	set_from_resource
+344a7f427fb765610ef96eb7bce95257|file:///home/ngoc/.config/sway/config|115|14|v|i3config
+	Editor
+d5104b92102dbcdbf254424b4a78e7d7|file:///home/ngoc/.config/sway/config|116|21|V|i3config
+	set $ws3 "3: Terminal"
+6e5bc02812454d72aa1b3361bc2f6c73|file:///home/ngoc/.config/sway/config|126|30|v|i3config
+	number 1
+3db14b7ee6183c9d58f1e9d5e8e63efd|file:///home/ngoc/.config/sway/config|127|30|v|i3config
+	number 2
+9f3ebc84fe13f3200262a9c4b7c9807d|file:///home/ngoc/.config/sway/config|128|30|v|i3config
+	number 3
+86f188df3015051c771264e12c69d0e4|file:///home/ngoc/.config/sway/config|129|30|v|i3config
+	number 4
+5870ed875d2bc967928d9a48d0bcac54|file:///home/ngoc/.config/sway/config|130|30|v|i3config
+	number 5
+7ad0675515e4c6e549b45563ed96268d|file:///home/ngoc/.config/sway/config|131|30|v|i3config
+	number 6
+6ff3a2b606e350496077cf22a5d88840|file:///home/ngoc/.config/sway/config|132|30|v|i3config
+	number 7
+495e65c146875c2864da04ef5b5e973e|file:///home/ngoc/.config/sway/config|133|30|v|i3config
+	number 8
+759b5bbc955543eae29c71973560aa77|file:///home/ngoc/.config/sway/config|134|30|v|i3config
+	number 9
+7a2bb2109d1449c4000ef19d9e51ed2f|file:///home/ngoc/.config/sway/config|135|30|v|i3config
+	number 10
+47dcbd834e669233d7eb8a51456ed217|file:///home/ngoc/.config/sway/config|117|14|v|i3config
+	Music
+55dcdf017b51fc96f7b5f9d63013b95d|file:///home/ngoc/.config/sway/config|118|14|v|i3config
+	Chat
+65c58a196ff00a96070340b7ce0f54a9|file:///home/ngoc/.config/sway/config|221|5|V|i3config
+	    # status_command waybar
+3322719465a5ffda71ea05ffbfbc3438|file:///home/ngoc/.config/sway/config|215|1|V|i3config
+	bar swaybar_command waybar
+ea5a1cbe764918679997181a3ea281d3|file:///home/ngoc/.config/sway/config|217|4|V|i3config
+	    }
+7a874138bf71ea7c038b35434f17c782|file:///home/ngoc/.config/sway/config|221|20|V|i3config
+	    status_command waybar
+e4388e2644b24e0a8e300e26f74dc77c|file:///home/ngoc/.config/sway/config|221|5|V|i3config
+	    # swaybar_command waybar
+93f017a150c5524544c393f28c7b8832|file:///home/ngoc/.config/i3/config|206|1|v|i3config
+	# Change Language
+	set $keyboard_lang Keyboard Language: (e) English, (v) Vietnamese
+	mode "$keyboard_lang" {
+	    bindsym e exec ibus engine xkb:us::eng, mode "default"
+	    bindsym v exec ibus engine Bamboo, mode "default"
+	
+	    # back to normal: Enter or Escape
+	    bindsym Return mode "default"
+	    bindsym Escape mode "default"
+	}
+	bindsym $mod+shift+z mode "$keyboard_lang"
+3cee24ad0c133eeb74db1f5eda5abd63|file:///home/ngoc/.config/i3/config|206|1|v|i3config
+	# Change Language
+	set $keyboard_lang Keyboard Language: (e) English, (v) Vietnamese
+	mode "$keyboard_lang" {
+	    bindsym e exec ibus engine xkb:us::eng, mode "default"
+	    bindsym v exec ibus engine Bamboo, mode "default"
+	
+	    # back to normal: Enter or Escape
+	    bindsym Return mode "default"
+	    bindsym Escape mode "default"
+	}
+	bindsym $mod+shift+z mode "$keyboard_lang"
+	
+80c16fb0c80b6cbc033a970c60aa6e53|file:///home/ngoc/.config/sway/config|229|39|V|i3config
+	/otfs/Font Awesome 6 Free-Solid-900.otf
+1e600a59fe625069db74d0cae6c4a1c2|file:///home/ngoc/.config/i3/config|218|1|v|i3config
+	# Shutdown System
+	set $Locker i3lock && sleep 1
+	
+	set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
+	mode "$mode_system" {
+	    bindsym l exec --no-startup-id $Locker, mode "default"
+	    bindsym e exec --no-startup-id i3-msg exit, mode "default"
+	    bindsym s exec --no-startup-id $Locker && systemctl suspend, mode "default"
+	    bindsym h exec --no-startup-id $Locker && systemctl hibernate, mode "default"
+	    bindsym r exec --no-startup-id systemctl reboot, mode "default"
+	    bindsym Shift+s exec --no-startup-id systemctl poweroff -i, mode "default"  
+	
+	    # back to normal: Enter or Escape
+	    bindsym Return mode "default"
+	    bindsym Escape mode "default"
+	}
+df73b8beddf89d3249d915c1b1e3268a|file:///home/ngoc/.config/i3/config|235|1|V|i3config
+	bindsym $mod+shift+x mode "$mode_system"
+11e39fa0614d0a3f0b0124fb9bf04696|file:///home/ngoc/.config/i3/config|201|1|v|i3config
+	# Open certain number of windows on startup
+	exec firefox
+	exec firefox -private-window
+	exec i3-sensible-terminal
+35a4b3470f1e6e73bfcc563f708ad290|file:///home/ngoc/.config/i3/config|196|1|v|i3config
+	# Assign application to workspace
+	assign [class="firefox"] $ws1
+	assign [class="Gnome-terminal"] $ws2
+	for_window [class="firefox" title="(?i)Private Browsing"] move to workspace $ws3
+	
+6f730958c5849c9c0decf5445c1ed978|file:///home/ngoc/.config/sway/config|270|3|v|i3config
+	Use waybar
+355f5cc2fc2c6262f6b94bcc4a67c5db|file:///home/ngoc/.config/sway/config|270|1|v|i3config
+	# Run waybar on startup
+	exec waybar
+4323303b130b1fd6ef0f31c87dfcc7a5|file:///home/ngoc/.config/sway/config|17|5|v|i3config
+	$term
+ccb5648dfed003bce37ffe6441024fc5|file:///home/ngoc/.config/sway/config|269|6|v|i3config
+	foot
+	
+3af42916f0ec8c44d070409af3dde239|file:///home/ngoc/.config/sway/config|263|16|v|i3config
+	Gnome-terminal
+a2f2ed4f8ebc2cbb4c21a29dc40ab61d|file:///home/ngoc/.config/sway/config|264|13|v|i3config
+	class
+d6a5c9544eca9b5ce2266d1c34a93222|file:///home/ngoc/.config/sway/config|264|21|v|i3config
+	firefox
+97212dc90ea6127f8109b272f45d902d|file:///home/ngoc/.config/sway/config|263|24|V|i3config
+	assign [class="foot"] $ws2
+dc6915f83bfcdd73d1606e3601a16078|file:///home/ngoc/.config/sway/config|215|10|V|i3config
+	exec dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK
+89fcf58cc7a83d089f222be8d7930e40|file:///home/ngoc/.config/sway/config|265|1|V|i3config
+	assign [class="firefox"] $ws1
+a224768d275687071581d96c882038b4|file:///home/ngoc/.config/i3/config|36|1|v|i3config
+	# Use pactl to adjust volume in PulseAudio.
+	set $refresh_i3status killall -SIGUSR1 i3status
+	bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status && pkill -SIGRTMIN+10 i3blocks
+	bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
+	bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
+	bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
+	
