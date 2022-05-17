@@ -18,7 +18,7 @@ set $down j
 set $up k
 set $right l
 # Your preferred terminal emulator
-set $term foot
+set $term gnome-terminal
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
@@ -251,7 +251,7 @@ mode "$keyboard_lang" {
 bindsym $mod+shift+z mode "$keyboard_lang"
 
 # Shutdown System
-set $Locker i3lock && sleep 1
+set $Locker swaylock && sleep 1
 
 set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
 mode "$mode_system" {
