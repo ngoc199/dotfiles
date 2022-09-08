@@ -8,7 +8,7 @@
 # i3 config file (v4)
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
-set $mod Mod1
+set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -217,7 +217,7 @@ mode "$keyboard_lang" {
 bindsym $mod+shift+z mode "$keyboard_lang"
 
 # Shutdown System
-set $Locker i3lock && sleep 1
+set $Locker betterlockscreen -l dim && sleep 1
 
 set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
 mode "$mode_system" {
