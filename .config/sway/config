@@ -11,7 +11,7 @@ exec ibus-daemon -d
 ### Variables
 #
 # Logo key. Use Mod1 for Alt.
-set $mod Mod1
+set $mod Mod4
 # Home row direction keys, like vim
 set $left h
 set $down j
@@ -34,7 +34,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in @datadir@/backgrounds/sway/)
-output * bg /home/ngoc/Pictures/wallpaper.jpg fill
+output * bg /home/ngoc/Pictures/wallpaper.png fill
 #
 # Example configuration:
 #
@@ -123,7 +123,7 @@ output * bg /home/ngoc/Pictures/wallpaper.jpg fill
 #
 
 set $ws1 "1: Browser"
-set $ws2 "2: Terminal"
+set $ws2 "2: Code"
 set $ws3 "3: Other"
 set $ws4 "4: Chat"
 set $ws5 "5: Music"
@@ -238,6 +238,16 @@ bar swaybar_command waybar
 #     }
 # }
 
+# Screenshot
+# capture all screens to clipboard    
+bindsym $mod+Shift+p exec grim - | wl-copy    
+    
+# capture the specified screen area to clipboard    
+bindsym $mod+Shift+Alt+p exec grim -g "$(slurp)" - | wl-copy    
+    
+# capture the focused monitor to clipboard    
+bindsym $mod+Shift+Control+p exec grim -o $(swaymsg -t get_outputs | jq -r '.[] | select(.focused) | .name') - | wl-copy
+
 # Change Language
 set $keyboard_lang Keyboard Language: (e) English, (v) Vietnamese
 mode "$keyboard_lang" {
@@ -277,7 +287,6 @@ for_window [class="firefox" title="(?i)Private Browsing"] move to workspace $ws3
 
 # Open certain number of windows on startup
 exec firefox
-exec firefox -private-window
 exec $term
 
 include @sysconfdir@/sway/config.d/*
